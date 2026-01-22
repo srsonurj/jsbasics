@@ -1,4 +1,4 @@
-let name = "Sonu"
+let h = "Sonu"
 let age = 19
 let isLoggedIn = false
 let state;
@@ -10,3 +10,9 @@ let state;
 //null => standalone value
 //undefined => value not assigned
 //symbol => unique
+
+console.log(typeof undefined); //undefined
+console.log(typeof null); // object
+console.log(typeof isLoggedIn); //boolean
+console.log(typeof "Sonu");
+console.log(typeof state); //undefined
