@@ -24,3 +24,32 @@ let numberToString = String(somenumber)
 console.log(numberToString);
 console.log(typeof numberToString);
 
+//********************** operations *********************//
+
+let val1= "Sonu" 
+let val2= " raj"
+
+//console.log(val1 + val2); string + string = (string)
+
+let word="hello"
+let num= 5
+
+let result = word + num
+
+//console.log(word + num ); // string + number = string
+
+let n= 4
+let x= n++
+
+//console.log(n); postfix increment operator n: 5 , x: 4
+
+let f= 6
+let r= ++f
+
+//console.log(r); prefix increment operator f: 7 , r: 7
+
+
+
+
+
+
