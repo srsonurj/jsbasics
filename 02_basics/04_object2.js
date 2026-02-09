@@ -49,12 +49,37 @@ const user = [
 ]
 
 user[1].email
-console.log(snapchatuser);
+// console.log(snapchatuser);
 
-console.log(Object.keys(snapchatuser));
-console.log(Object.values(snapchatuser));
-console.log(Object.entries(snapchatuser));
+// console.log(Object.keys(snapchatuser));
+// console.log(Object.values(snapchatuser));
+// console.log(Object.entries(snapchatuser));
 
-console.log(snapchatuser.hasOwnProperty('isLoggedIn'));
+// console.log(snapchatuser.hasOwnProperty('isLoggedIn'));
 
 
+const course = {
+    coursename: "PyInHindi",
+    price : "1499",
+    courseinstructor: "Sonu Raj"
+
+}
+
+// console.log(course);
+
+//course.courseinstructor
+
+const {courseinstructor : inst} = course
+// console.log(inst);
+
+{
+    "name" : "Python In Hindi"
+    "price" : "free" 
+    "courseinstructor" : "Sonu Raj"
+
+ }
+
+[   {},
+    {},
+    {}
+]
